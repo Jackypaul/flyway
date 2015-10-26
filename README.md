@@ -1,5 +1,8 @@
+                                        #Flyway ~ Commandes / Options
+
+
 ###migrate :
-  Permet de migrer les fichier sql.
+  Permet de migrer les fichiers sql.
 
 ```console
 $ flyway [options] migrate
@@ -24,7 +27,7 @@ $ flyway [options] info
 options : http://flywaydb.org/documentation/commandline/info.html
 
 ###validate
-  Check le contenu des fichier sql avant la migration.
+  Check le contenu des fichiers sql avant la migration.
 
 ```console
 $ flyway [options] validate
@@ -32,7 +35,7 @@ $ flyway [options] validate
 options : http://flywaydb.org/documentation/commandline/validate.html
 
 ###baseline
-  Part d'une base existante pour la versioner.
+  Initialise une base existante pour la versioner.
 
 ```console
 $ flyway [options] baseline
@@ -40,7 +43,7 @@ $ flyway [options] baseline
 options : http://flywaydb.org/documentation/commandline/baseline.html
 
 ###repair
-  Répare la base de donnée en cas de conflit, supprime les migration source de ce conflit.
+  Répare la base de donnée en cas de conflit, supprime les migrations qui en sont la cause.
 
 ```console
 $ flyway [options] repair
